@@ -1,0 +1,150 @@
+body{
+  background-image: url(https://pixabay.com/static/uploads/photo/2015/03/24/00/43/lemons-686918_960_720.jpg);
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-color:#e9e9e9;
+}
+#container{
+  position:relative;
+  width:500px;
+  height:500px;
+  border-radius:50%;
+  background-color:#333333;
+  box-shadow:0px 0px 40px #000000;
+  margin:auto;
+  top:40px;
+}
+#topright{
+  position:absolute;
+  top:18px;
+  right:18px;
+  background-color:#CC0000 ;
+  width:230px;
+  height:230px;
+  border-top-right-radius:100%;
+}
+#bottomright{
+  position:absolute;
+  bottom:18px;
+  right:18px;
+  background-color:#003C9D;
+  width:230px;
+  height:230px;
+  border-bottom-right-radius:100%;
+}
+#bottomleft{
+  position:absolute;
+  bottom:18px;
+  left:18px;
+  background-color:#DDAA00 ;
+  width:230px;
+  height:230px;
+  border-bottom-left-radius:100%;
+}
+#topleft{
+  position:absolute;
+  top:18px;
+  left:18px;
+  background-color:#008800;
+  width:230px;
+  height:230px;
+  border-top-left-radius:100%;
+}
+
+#choose{
+  position:absolute;
+  width:200px;
+  height:200px;
+  background-color:#E8CCFF;
+  top:50%;
+  left:50%;
+  border-radius:50%;
+  transform: translate(-50%,-50%);
+  border: 4px solid #333333;
+  
+}
+#choose h2{
+  margin-top:50px;
+  text-align:center;
+  font-size:24px;
+  font-style:monospace;
+}
+#count{
+  position:absolute;
+  left:30px;
+  width:50px;
+  height:35px;
+  background-color:#442211;
+  border:2px solid #444444;
+  border-radius:7px;
+  display: inline-block;
+}
+#num{
+  position:relative;
+  top:-23px;
+  font-size:24px;
+  text-align:center;
+  color: #FF0000;
+}
+#start{
+  position:absolute;
+  width:35px;
+  height:35px;
+  right:40px;
+  border:2px solid #444444;
+  border-radius:50%;
+  background-color:red;
+}
+.gamefield:hover{
+  cursor:pointer;
+}
+#start:hover{
+  cursor:pointer;
+}
+#des1{
+  position:absolute;
+  left:37px;
+  margin-top:40px;
+  font-size:13px;
+}
+#des2{
+  position:absolute;
+  right:43px;
+  margin-top:40px;
+  font-size:13px;
+}
+#on{
+  position:absolute;
+  bottom:10px;
+  left:50%;
+  transform:translate(-50%);
+  width:50px;
+  height:20px;
+  border: 2px solid #333333;
+  background-color:#666666;
+}
+#on:hover{
+  cursor:pointer;
+}
+#onoff{
+  position:absolute;
+  left:0px;
+  width:25px;
+  height:20px;
+  background-color:#5599FF;
+  border-radius:4px;
+}
+#des3{
+  position:absolute;
+  bottom:5px;
+  left:50px;
+  margin-top:40px;
+  font-size:11px;
+}
+#des4{
+  position:absolute;
+  bottom:5px;
+  right:50px;
+  margin-top:40px;
+  font-size:11px;
+}
